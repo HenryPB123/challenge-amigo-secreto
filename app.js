@@ -24,5 +24,21 @@ function agregarAmigo() {
       //Limpiar el imput después de una entrada
       input.value = "";
     }
+    actualizarListaDeAmigos();
+  }
+}
+
+function actualizarListaDeAmigos() {
+  //Borro la lista  si había una anterior
+  document.getElementById("resultado").innerHTML = "";
+  //Traer la lista y borrarla si contenia nombres
+  let listaAmigos = document.getElementById("listaAmigos");
+  listaAmigos.innerHTML = "";
+  //Recorrer para agregar los nombres a la lista
+  for (let i = 0; i < amigos.length; i++) {
+    //crear elemento que conforma lña lista
+    let li = document.createElement("li");
+    li.innerHTML = amigos[i];
+    listaAmigos.appendChild(li);
   }
 }
