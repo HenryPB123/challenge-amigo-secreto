@@ -1,10 +1,10 @@
-🎁 Amigo Secreto Web App
-📝 Descripción del Proyecto
+<h1>🎁 Juego Sorteo Amigo Secreto</h1>
+<h2>📝 Descripción del Proyecto </h2>
 Esta es una sencilla aplicación web que permite a los usuarios interactuar con un juego de Amigo Secreto. Podrás agregar nombres de participantes a una lista y luego realizar un sorteo para obtener un amigo secreto de esa lista.
 
 Desarrollada con un enfoque en la lógica de programación y la manipulación del DOM (Document Object Model), esta aplicación es ideal para comprender los fundamentos de JavaScript y su interacción con HTML y CSS.
 
-✨ Características
+<h2>✨ Características </h2>
 Añadir Participantes: Agrega nombres de amigos a la lista de participantes.
 
 Validación de Nombres: Verifica que los nombres ingresados sean válidos (sin números, caracteres especiales y con un mínimo de dos letras).
@@ -17,7 +17,7 @@ Mensajes Dinámicos: Proporciona retroalimentación al usuario sobre la lista y 
 
 Reinicio Automático: La lista de participantes se reinicia después de cada sorteo para preparar un nuevo juego.
 
-🛠️ Tecnologías Utilizadas
+<h2> 🛠️ Tecnologías Utilizadas</h2>
 HTML5: Estructura semántica del contenido de la página web.
 
 CSS3: Estilos visuales para una interfaz de usuario atractiva.
@@ -26,7 +26,7 @@ Uso de Google Fonts para tipografías personalizadas (Inter y Merriweather).
 
 JavaScript (ES6+): Lógica principal del juego, manipulación del DOM y funcionalidad de sorteo.
 
-🚀 Cómo Usar
+<h2>🚀 Cómo Usar</h2>
 Clona o descarga este repositorio a tu máquina local.
 
 Abre el archivo index.html en tu navegador web preferido.
@@ -41,7 +41,7 @@ Haz clic en el botón "Sortear amigo".
 
 La aplicación te mostrará un amigo secreto sorteado de la lista. Después de unos segundos, la lista de participantes se limpiará automáticamente para que puedas comenzar un nuevo sorteo.
 
-📁 Estructura del Proyecto
+<h2>📁 Estructura del Proyecto</h2>
 amigo-secreto/
 ├── index.html
 ├── style.css
@@ -57,5 +57,5 @@ app.js: Contiene toda la lógica de JavaScript para el funcionamiento del juego.
 
 assets/: Carpeta que almacena las imágenes y otros recursos gráficos utilizados en el proyecto.
 
-🧑‍💻 Autor
+<h3>🧑‍💻 Autor</h3>
 Henry Peralta Briceño - Desarrollador
