@@ -42,3 +42,27 @@ function actualizarListaDeAmigos() {
     listaAmigos.appendChild(li);
   }
 }
+
+function sortearAmigo() {
+  if (amigos.length === 0) {
+    alert(
+      "No hay una lista de amigos para jugar, por favor agrega nombres para realizar el juego."
+    );
+  } else if (amigos.length < 2) {
+    alert(
+      "Solo hay un nobre en la lista. Agrega mínimo dos para poder realizar el juego."
+    );
+  } else {
+    let indice = Math.floor(Math.random() * amigos.length);
+
+    let resultado = document.getElementById("resultado");
+    let li = document.createElement("li");
+    li.innerHTML = `Tu amigo secreto sorteado es: <strong>${amigos[indice]}</strong>`;
+    resultado.appendChild(li);
+    document.getElementById("listaAmigos").innerHTML = "";
+    setTimeout(() => {
+      li.innerHTML = `Si deseas hacer otro sorteo del amigo secreto, agregalos nuevamente.`;
+    }, 3000);
+    amigos = [];
+  }
+}
