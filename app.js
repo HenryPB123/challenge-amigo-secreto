@@ -17,6 +17,7 @@ function agregarAmigo() {
     let nombreEsValido = regex.test(nombreAmigo);
     if (nombreEsValido === false) {
       alert("Por favor inserta un nombre válido.");
+      document.getElementById("amigo").value = "";
     } else {
       //Agregar amigo al array
       amigos.push(nombreAmigo);
